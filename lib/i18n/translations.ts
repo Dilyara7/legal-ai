@@ -1,7 +1,7 @@
 // Типы для переводов
 export type Language = "ru" | "kz" | "en"
 
-// Интерфейс для перев��дов
+// Интерфейс для переводов
 export interface Translations {
   // Общие
   siteName: string
@@ -362,7 +362,7 @@ export const ru: Translations = {
         description: "Мгновенные консультации 24/7 в любое время.",
       },
       ai: {
-        title: "Искусственный инт��ллект",
+        title: "Искусственный интеллект",
         description: "Современные нейросети анализируют ваш запрос и дают точный ответ.",
       },
       confidentiality: {
@@ -388,8 +388,8 @@ export const ru: Translations = {
         description: "Наш ИИ проверит документ на риски и нюансы.",
       },
       documents: {
-        title: "Автоматическое составление документов",
-        description: "Генерация юридических документов на основе шаблонов.",
+        title: "Готовые образцы документов",
+        description: "Получение юридических документов на основании образцов.",
       },
     },
   },
@@ -543,7 +543,7 @@ export const ru: Translations = {
         generalError: "Произошла ошибка при входе",
       },
       success: {
-        title: "Регистрац��я успешна!",
+        title: "Регистрация успешна!",
         message: "Ваш аккаунт был успешно создан. Теперь вы можете войти в систему.",
       },
     },
@@ -700,8 +700,8 @@ export const kz: Translations = {
         description: "Біздің ЖИ құжатты тәуекелдер мен нюанстарға тексереді.",
       },
       documents: {
-        title: "Автоматты құжат жасау",
-        description: "Үлгілер негізінде заңдық құжаттарды жасау.",
+        title: "Дайын құжаттар үлгілері",
+        description: "Үлгілер негізінде заңдық құжаттарды алу.",
       },
     },
   },
@@ -732,7 +732,7 @@ export const kz: Translations = {
     howItWorks: {
       title: "Жүйе қалай жұмыс істейді?",
       processing: {
-        title: "Сұр��уды өңдеу",
+        title: "Сұрауды өңдеу",
         description: "ЖИ сұрағыңызды талдап, оның заңдық ерекшелігін анықтайды.",
       },
       technologies: {
@@ -884,7 +884,7 @@ export const kz: Translations = {
       title: "Құпия сөзді қалпына келтіру",
       subtitle: "Біз сізге көрсетілген email-ге құпия сөзді қалпына келтіру нұсқаулығын жібереміз",
       formTitle: "Құпия сөзді ұмыттыңыз ба?",
-      formSubtitle: "Тіркел�� кезінде көрсетілген email-ді енгізіңіз",
+      formSubtitle: "Тіркелу кезінде көрсетілген email-ді енгізіңіз",
       email: "Email",
       sendButton: "Нұсқаулықты жіберу",
       backToLogin: "Кіру бетіне оралу",
@@ -971,8 +971,8 @@ export const en: Translations = {
         description: "Our AI will check the document for risks and nuances.",
       },
       documents: {
-        title: "Automatic Document Generation",
-        description: "Generation of legal documents based on templates.",
+        title: "Ready-made samples of documents",
+        description: "Obtaining legal documents based on samples.",
       },
     },
   },

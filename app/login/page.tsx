@@ -1,3 +1,10 @@
+import { Suspense } from "react"
+import LoginClientPage from "./client-page"
+
 export default function LoginPage() {
-  return null
+  return (
+    <Suspense fallback={<div>Загрузка...</div>}>
+      <LoginClientPage />
+    </Suspense>
+  )
 }

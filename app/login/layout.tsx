@@ -1,5 +1,3 @@
-import ClientPage from "./client-page"
-
-export default function LoginLayout() {
-  return <ClientPage />
+export default function LoginLayout({ children }: { children: React.ReactNode }) {
+  return <>{children}</>
 }
